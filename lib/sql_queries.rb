@@ -13,7 +13,7 @@ end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
   "SELECT name,
-          ages
+          age
    FROM bears
    WHERE alive = 1
    ORDER BY age ASC"
