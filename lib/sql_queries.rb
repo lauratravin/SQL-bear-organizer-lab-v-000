@@ -24,7 +24,7 @@ def selects_oldest_bear_and_returns_name_and_age
           age
    FROM bears
    ORDER BY age DESC
-   DISTINC 1"
+   LIMIT 1"
 end
 
 def select_youngest_bear_and_returns_name_and_age
