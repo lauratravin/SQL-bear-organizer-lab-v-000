@@ -38,7 +38,7 @@ end
 def selects_most_prominent_color_and_returns_with_count
   "SELECT COUNT(color)
    FROM bears
-   WHERE color = 'black'"
+   WHERE color = 'Black'"
 end
 
 def counts_number_of_bears_with_goofy_temperaments
