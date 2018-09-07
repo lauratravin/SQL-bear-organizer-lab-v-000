@@ -1,6 +1,7 @@
 def selects_all_female_bears_return_name_and_age
   "Write your SQL query here"
-  SELECT name, age
+  SELECT name,
+         age
   FROM bears
   WHERE genre == F
 
