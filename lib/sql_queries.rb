@@ -47,10 +47,8 @@ def counts_number_of_bears_with_goofy_temperaments
    WHERE temperament = 'goofy'"
 end
 
-# def selects_bear_that_killed_Tim
-#   "SELECT name,
-#           age
-#    FROM bears
-#    ORDER BY age ASC
-#    LIMIT 1"
-# end
+def selects_bear_that_killed_Tim
+  "SELECT *
+   FROM bears
+   WHERE name = nil"
+end
